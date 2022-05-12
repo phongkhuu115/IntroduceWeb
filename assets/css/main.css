@@ -1,18 +1,19 @@
-html {
-  background-image: url("./assets/images/jrLO3S.jpg");
-  background-repeat: no-repeat;
+body {
+  background-image: url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt1a1f34bd62c69242/5e72432181bc8343ad16305d/TFT.S3_GALAXIES.ARTICLE-1-2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .header {
   display: flex;
   flex-direction: row;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(255,255,255,0.4);
   border-radius: 20px;
+  margin-top: 45px;
 }
 p {
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
 }
 .header-left-col {
   display: flex;
@@ -24,7 +25,7 @@ img.header-avatar {
   height: 150px;
   width: 150px;
   border-radius: 15px;
-  margin: 21px 80px 10px 60px;
+  margin: 21px 80px 10px 40px;
 }
 .header-basicinfo {
   margin-right: 130px;
@@ -33,7 +34,7 @@ img.header-avatar {
 }
 .header-button {
   text-decoration: none;
-  margin-left: 15px;
+  margin-left: 17.5px;
 }
 .fa-brands {
   padding: 10px 5px 10px 10px;
@@ -60,4 +61,61 @@ img.header-avatar {
 }
 .col-2 {
   margin-left: 55px;
+}
+p.name {
+  font-weight: 700;
+}
+p.col-content-1 {
+  font-weight: 700;
+}
+p.col-content {
+  font-style: italic;
+}
+.content {
+  margin-top: 50px;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hobbie {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+p.title {
+  writing-mode: vertical-rl;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px 0px 10px 0px;
+}
+p.description {
+  text-align: left!important;
+}
+.hobbie > p.description {
+  margin-top: 32px;
+}
+.achievement > p.description {
+  margin-top: 50px;
+}
+.achievement {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 20px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.description {
+  color: white;
 }
